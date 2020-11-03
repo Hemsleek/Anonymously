@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 .NavBar{
 
-    
-.brand-logo{
-    font-family: 'Syne Tactile', cursive;
-}
+
+    .brand-logo{
+        font-family: 'Syne Tactile', cursive;
+    }
+    .tab.selected{
+        color:#4c51bf;
+    }
+
 }

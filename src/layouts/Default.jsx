@@ -2,7 +2,7 @@ import React from 'react'
 
 import NavBar from '../components/NavBar'
 
-export default({children}) => {
+const Default=({children}) => {
     return (
         <>
            <NavBar />
@@ -11,4 +11,4 @@ export default({children}) => {
     )
 }
 
-
+export default Default

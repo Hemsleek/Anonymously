@@ -1,0 +1,22 @@
+form{
+   
+    .form-group{
+        display:flex;
+        flex-direction: column;
+        label{
+            font-weight: bold;
+        }
+        input{
+
+            padding:.4rem .3rem;
+            border-radius: .25rem;
+            margin-top:.1rem;
+
+            &:focus{
+                outline: none;
+            }
+            
+        }
+
+    }
+}
