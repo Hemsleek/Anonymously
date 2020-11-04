@@ -1,8 +1,9 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
-import NavBar from './components/NavBar'
+
 
 //routes
+import HomePage from './pages/HomePage'
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
@@ -16,7 +17,7 @@ const App= () => {
     <div className="App bg-indigo-200 h-screen">
 
     <Switch>
-    <Route path="/" component={NavBar} exact/>
+    <Route path="/" component={HomePage} exact/>
     <Route path="/Login" component={Login} exact/>
     <Route path="/Signup" component={Signup} exact/>
      
