@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 import './HomePage.scss'
 
-const Login = () => {
+const HomePage = () => {
     const buttons =[
       
         {route:'/Login',text:'Login'},
@@ -28,4 +28,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default HomePage

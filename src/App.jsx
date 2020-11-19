@@ -6,6 +6,7 @@ import {Switch, Route} from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Messages from './pages/Messages';
 
 import './App.scss';
 
@@ -18,8 +19,9 @@ const App= () => {
 
     <Switch>
     <Route path="/" component={HomePage} exact/>
-    <Route path="/Login" component={Login} exact/>
-    <Route path="/Signup" component={Signup} exact/>
+    <Route path="/Login" component={Login} />
+    <Route path="/Signup" component={Signup}/>
+    <Route path="/messages" component={Messages}/>
      
     </Switch>
     </div>

@@ -7,7 +7,7 @@ const Login = () => {
         <Default>
             <form  className="max-w-md bg-white text-indigo-900  h-auto rounded shadow-lg p-5 mx-auto mt-32 ">
                 <div className="form-group mb-3">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">Username/ Email</label>
                     <input className="bg-indigo-200" type="email" name="email" id="email"/>
                 </div>
 
