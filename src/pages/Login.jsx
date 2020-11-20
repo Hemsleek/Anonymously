@@ -5,7 +5,7 @@ import './Login.scss'
 const Login = () => {
     return (
         <Default>
-            <form  className="max-w-md bg-white text-indigo-900  h-auto rounded shadow-lg p-5 mx-auto mt-32 ">
+            <form  onSubmit={(ev) => ev.preventDefault()} className="max-w-md bg-white text-indigo-900  h-auto rounded shadow-lg p-5 mx-auto mt-32 ">
                 <div className="form-group mb-3">
                     <label htmlFor="email">Username/ Email</label>
                     <input className="bg-indigo-200" type="email" name="email" id="email"/>

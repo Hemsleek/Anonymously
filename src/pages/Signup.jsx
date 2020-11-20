@@ -13,7 +13,7 @@ const Signup = () => {
 
     return (
         <Default>
-            <form  className="max-w-md bg-white text-indigo-900  h-auto rounded shadow-lg p-5 mx-auto mt-16 ">
+            <form  onSubmit={(ev) => ev.preventDefault()} className="max-w-md bg-white text-indigo-900  h-auto rounded shadow-lg p-5 mx-auto mt-16 ">
                
                 {
                     formGroup.map(({label,type},formIndex) =>
