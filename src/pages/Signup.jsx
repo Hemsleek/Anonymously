@@ -19,13 +19,13 @@ const Signup = () => {
                     formGroup.map(({label,type},formIndex) =>
                         <div className="form-group mb-3" key={`form-group${formIndex}`}>
                             <label htmlFor={label}>{label}</label>
-                            <input className="bg-indigo-200" type={type} name={label} id={label}/>
+                            <input className="bg-indigo-200 placeholder-indigo-400 text-indigo-800" type={type} name={label} id={label}  placeholder={label} />
                         </div>
                     )
                 
                 }
 
-                <button className="outline-none mx-auto block mt-5 bg-indigo-200 px-3 py-2 rounded text-indigo-900 font-bold">Signup</button>
+                <button className="focus:outline-none mx-auto block mt-5 bg-indigo-200 px-3 py-2 rounded text-indigo-900 font-bold">Signup</button>
             </form>
         </Default>
     )
