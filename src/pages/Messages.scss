@@ -3,4 +3,7 @@ Default{
     .caption{
         text-transform: capitalize;
     }
+    .indicator.visible{
+        visibility: visible;
+    }
 }
